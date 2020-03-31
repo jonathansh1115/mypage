@@ -26,7 +26,7 @@ export default () => {
     useEffect(() => {
         Axios({
             method: 'GET',
-            url: 'http://localhost:80/mypage/api/getcards.php',
+            url: 'http://itsmejonathan.epizy.com/getcards.php',
             headers: {
                 'Content-Type': 'application/json'
             }

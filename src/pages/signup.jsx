@@ -38,7 +38,7 @@ export default () => {
         if (fetch === true) {
             Axios({
                 method: 'POST',
-                url: 'http://localhost:80/mypage/api/signup.php',
+                url: 'http://itsmejonathan.epizy.com/signup.php',
                 headers: {
                     'Content-Type': 'application/json'
                 },

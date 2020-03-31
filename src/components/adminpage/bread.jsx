@@ -34,7 +34,7 @@ const Example = () => {
                 {
                     breads.map(item => {
 
-                        let href = `http://localhost:3000/admin_control_panel/${item}`
+                        let href = `https://itsmejonanathan.netlify.com/admin_control_panel/${item}`
                         
                         return (
                             <BreadcrumbItem active>

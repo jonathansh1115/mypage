@@ -18,7 +18,7 @@ export default (props) => {
     const checkUsername = (newEmail) => {
         Axios({
             method: 'POST',
-            url: 'http://localhost:80/mypage/api/validation4email.php',
+            url: 'http://itsmejonathan.epizy.com/validation4email.php',
             headers: {
                 'Content-Type': 'application/json'
             },

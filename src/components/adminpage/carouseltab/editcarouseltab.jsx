@@ -35,7 +35,7 @@ export default () => {
     useEffect(() => {
         Axios({
             method: 'GET',
-            url: 'http://localhost:80/mypage/api/getcarouselimg.php',
+            url: 'http://itsmejonathan.epizy.com/getcarouselimg.php',
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -54,7 +54,7 @@ export default () => {
         
         Axios({
             method: 'POST',
-            url: 'http://localhost:80/mypage/api/uploadcarouselimg.php',
+            url: 'http://itsmejonathan.epizy.com/uploadcarouselimg.php',
             headers: {
                 'Content-Type': 'multipart/form-data'
             },
@@ -74,7 +74,7 @@ export default () => {
 
                 Axios({
                     method: 'GET',
-                    url: 'http://localhost:80/mypage/api/getcarouselimg.php',
+                    url: 'http://itsmejonathan.epizy.com/getcarouselimg.php',
                     headers: {
                         'Content-Type': 'application/json'
                     }

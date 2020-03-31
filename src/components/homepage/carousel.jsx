@@ -19,7 +19,7 @@ export default (props) => {
     useEffect(() => {
         Axios({
             method: 'GET',
-            url: 'http://localhost:80/mypage/api/getcarouselimg.php',
+            url: 'http://itsmejonathan.epizy.com/getcarouselimg.php',
             headers: {
                 'Content-Type': 'application/json'
             }
