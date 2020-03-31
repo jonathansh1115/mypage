@@ -37,7 +37,7 @@ export default () => {
         
         Axios({
             method: 'POST',
-            url: 'http://localhost:80/mypage/api/uploadcard.php',
+            url: 'http://itsmejonathan.epizy.com/validation4username.php',
             headers: {
                 'Content-Type': 'multipart/form-data'
             },
