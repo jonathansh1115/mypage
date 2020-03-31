@@ -33,7 +33,7 @@ export default () => {
 
         Axios({
             method: 'POST',
-            url: 'http://localhost:80/mypage/api/login.php',
+            url: 'http://itsmejonathan.epizy.com/login.php',
             headers: {
                 'Content-Type': 'application/json'
             },
