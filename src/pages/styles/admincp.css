@@ -1,0 +1,38 @@
+/* desktop tablet size */
+
+@media only screen and (min-width: 768px) {
+    div.sidebarbox {
+        height: 80vh;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        /* padding: 10px; */
+    }
+    div.carouselimgbox {
+        height: 45vh;
+        background-color: rgb(246, 246, 246);
+        overflow: hidden;
+        border-radius: 5px;
+        margin: 10px 10px 10px 0;
+        padding: 5px;
+    }
+    .tabbox {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        background-color: #eeeeee;
+    }
+}
+
+
+/* phone size */
+
+@media only screen and (max-width: 540px) {
+    div.sidebarbox {
+        height: 100%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        /* padding: 10px; */
+    }
+}

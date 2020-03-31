@@ -1,0 +1,21 @@
+div.sidebar {
+    width: 100%;
+    /* border: 1px solid transparent; */
+    border-radius: 5px;
+    /* margin: 0; */
+    background-color: #eeeeee;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.sidebar-subitem-text {
+    font-size: 0.8rem;
+}
+
+.editbutton {
+    position: absolute;
+    bottom: 10px;
+    margin: auto;
+}

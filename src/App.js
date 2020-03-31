@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+// libraries
+import { Route } from 'react-router-dom'
+
+// components
+import Nav from './components/homepage/nav.jsx'
+import TestComponent from './components/homepage/testcomponent.jsx'
+import Admincp from './pages/admincp.jsx'
+
+// pages
+import Homepage from './pages/homepage.jsx'
+import Signup from './pages/signup.jsx'
+
+
+const App = () => {
+
+  // const [num, setNum] = useState(0)
+  // const add = () => {
+  //   setNum(num+1)
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Route path='/' component={Nav} /> 
+
+      <Route exact path='/' component={Homepage} />
+
+      <Route path='/home' component={Homepage} />
+
+      <Route path='/signup' component={Signup} />
+
+      <Route path='/admin_control_panel' component={Admincp} />
+
+      {/* <TestComponent click={add} value={num} /> */}
     </div>
   );
 }
